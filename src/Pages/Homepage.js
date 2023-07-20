@@ -25,7 +25,7 @@ export default function Homepage() {
         <img src={require('../assets/salad.jpg')} alt="salad and pizza" />
         </div>
         <div id="hawaiian-pizza">
-        <img src={require('../assets/aboutinfopizza.jpg')} alt="Hawaiian Pizza" />
+        <img src={require('../assets/aboutinfopizza.jpg')} alt="Margaritta Pizza" />
         </div>
         </div>
       </section>
@@ -36,6 +36,12 @@ export default function Homepage() {
             <p>The Oven's Edge, a recently launched<br/> pizzeria, is thrilled to embark on its inaugural year <br/>of serving the community with mouthwatering pizza creations.</p>
         </div>
 
+      </section>
+      <section id="menu-container">
+        <div>
+          <h2>Menu</h2>
+          
+        </div>
       </section>
     </div>
     
