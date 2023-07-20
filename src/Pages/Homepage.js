@@ -19,12 +19,21 @@ export default function Homepage() {
         The Oven's Edge Pizzaria is a traditional Italian pizzaria venue, serving the best dishes and drinks from across the range of Italian cuisines. A definitive neighborhood joint in Davis Square, The Oven's Edge offers a laid-back dining experience in a casual setting to guests from all walks of life. Honest food and honest drinks set the foundation of our place's menu!
         </p>
         </div>
+        <div id="img-container">
         <div id="moscow">
-        <img src={require('../assets/moscow.jpg')} alt="Hawaiian Pizza" />
-        <img src={require('../assets/salad.jpg')} alt="Hawaiian Pizza" />
+        <img src={require('../assets/moscow.jpg')} alt="moscow mule" />
+        <img src={require('../assets/salad.jpg')} alt="salad and pizza" />
         </div>
-        <div>
-        <img src={require('../assets/aboutinfopizza.jpg')} alt="Hawaiian Pizza" id="hawaiian-pizza"/>
+        <div id="hawaiian-pizza">
+        <img src={require('../assets/aboutinfopizza.jpg')} alt="Hawaiian Pizza" />
+        </div>
+        </div>
+      </section>
+
+      <section id="founded-container">
+        <div id="founded-content">
+            <h1>Founded in 2023</h1>
+            <p>The Oven's Edge, a recently launched<br/> pizzeria, is thrilled to embark on its inaugural year <br/>of serving the community with mouthwatering pizza creations.</p>
         </div>
 
       </section>
