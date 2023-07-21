@@ -1,4 +1,4 @@
-
+import ProductCard from '../Components/ProductCard';
 
 export default function Homepage() {
   return (
@@ -38,9 +38,10 @@ export default function Homepage() {
 
       </section>
       <section id="menu-container">
-        <div>
-          <h2>Menu</h2>
+      <h2>Menu</h2>
+        <div className='products'>
           
+          <ProductCard />
         </div>
       </section>
     </div>
