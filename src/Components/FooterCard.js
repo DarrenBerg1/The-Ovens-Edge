@@ -1,6 +1,5 @@
 
 
-
 export default function footer(){
   return(
     <>
@@ -9,17 +8,17 @@ export default function footer(){
       <h1>The Oven's Edge</h1>
      </div>
      <div className="footer">
-      {/* <ul id='nav-links'>
+      <ul id='footer-details'>
         <li>
-        <a href='HomePage'>Home</a>
+        <p>Address: Alexandria, 32 Washington str, 22303</p>
         </li>
         <li>
-        <a href='#'>Menu</a>
+        <p>Phone: (713)800-0000</p>
         </li>
         <li>
-        <a href='#'>Contact</a>
+        
         </li>
-      </ul> */}
+      </ul>
       <button id='footer-nav-btn'>Reservation</button>
       </div>
     </div>
