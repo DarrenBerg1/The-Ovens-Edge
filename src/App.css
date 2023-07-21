@@ -340,6 +340,10 @@
   border: 2px solid white;
 }
 
+#footer-details svg{
+  margin-top: 10px;
+}
+
 /* #nav-links {
   list-style: none;
   width: 85%;
