@@ -1,9 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=IM+Fell+Great+Primer&family=PT+Serif&family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fredericka+the+Great&family=IM+Fell+Great+Primer&family=Kaushan+Script&family=PT+Serif&family=Pacifico&family=Tangerine&display=swap');
 
 .App {
   text-align: center;
 }
+
+#navbar-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -40px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;  
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo h1 {
+  width: 180px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+}
+
+#nav-links {
+  list-style: none;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+}
+
+#nav-links li a {
+
+  color: inherit; /* Inherits the color from the parent element (white in this case) */
+  text-decoration: none; /* Removes the underline */
+}
+
+#nav-btn {
+  border-radius: 0%;
+  border: 2px solid black;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  font-family: 'PT Serif', serif;
+  font-size: larger;
+  transition: background-color 0.6s ease;
+}
+
+#nav-btn:hover {
+  background: linear-gradient(to top left, black 100%, transparent 0%);
+  color: white;
+  transition: background-color 0.6s ease;
+  border: 2px solid white;
+}
+
+
 #home-info {
   height: 980px;
   background-image: url("https://img.freepik.com/premium-photo/restaurant_23-2148014999.jpg?size=626&ext=jpg&ga=GA1.2.1890151805.1689798164&semt=ais");
@@ -11,31 +71,32 @@
   background-size: cover;
   background-position: right;
   color: white;
-  
+  font-family: 'PT Serif', serif;
 }
 
 #home-info h3{
   padding-top: 80px;
-  margin-bottom: -30px;
+  margin-bottom: -70px;
   font-size: 40px;
 }
 #home-info h1 {
   font-size: 90px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: lighter;
 }
 
 #home-info p {
   font-size: 20px;
+  font-weight: 400;
 }
 
 #about-info{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: -20px;
   background-color: white;
   color:black;
-  height: 750px;
+  height: 800px;
   align-items: center;
-  
 }
 
 #about-text {
@@ -43,8 +104,6 @@
   text-align: left;
   align-self: self-start;
   font-family: 'PT Serif', serif;
-
-  
 }
 #about-text h2 {
   font-size: 60px;
@@ -63,20 +122,17 @@
   justify-self: left;
   color: grey;
   width: 80%;
-  
 }
 
 #img-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 70px;
-  
 }
 
 #moscow{
   display: grid;
   grid-template-rows: repeat(2, 1fr);
- 
 }
 
 #moscow img {
@@ -93,7 +149,7 @@
 
 #founded-container {
   height: 750px;
-  margin-top: 210px;
+  margin-top: 150px;
   background-image: url("./assets/wineglass.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,29 +180,150 @@
   margin-top: -10px;
 }
 
-
-
 #menu-container {
-  display: grid;
-  
-  margin-top: 70px;
+  height: 1200px;
+  font-family: 'PT Serif', serif;
 }
 
+#menu-container h2 {
+  font-size: 60px;
+}
+
+#menu-container Button {
+  margin-top: 30px;
+  border-radius: 0%;
+  border: 2px solid black;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  font-family: 'PT Serif', serif;
+  font-size: larger;
+  transition: background-color 0.6s ease;
+}
+
+#menu-container button:hover {
+  background: linear-gradient(to top left, black 100%, transparent 0%);
+  color: white;
+  transition: background-color 0.6s ease;
+}
+  /* add hover for button */
+
 .products img {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
 }
 
 .products {
+  margin-left: 25px;
   display: grid;
   align-content: end;
-  grid-template-columns: repeat(2, 1fr); /* Creates a 2-column grid with equal width */
-  grid-gap: 20px; /* Adjust the gap between the columns and rows as needed */
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 10px;
+  
 }
 
 /* Styling for individual product divs */
 
-.products-info{
+.products .product-info {
   display: flex;
   flex-direction: row;
+  justify-content:space-around;
+  font-weight: 500;
+  font-style: italic;
+  
 }
+
+#review-container {
+  height: 750px;
+  background-image: url("./assets/review.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-content: center;
+}
+
+#review-content {
+  display: grid;
+  align-content: center;
+  font-family: 'PT Serif', serif;
+  background-color: black;
+  opacity: 0.8;
+  height: 620px;
+  color:white;
+  width: 100%;
+}
+
+#review-content h1{
+  margin-top: -150px;
+  font-size: 60px;
+  font-weight:10;
+
+}
+
+#review-content p{
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+#footer-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -40px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: white;  
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#footer-logo h1 {
+  width: 180px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+}
+
+#footer-nav-btn {
+  border-radius: 0%;
+  border: 2px solid black;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  font-family: 'PT Serif', serif;
+  font-size: larger;
+  transition: background-color 0.6s ease;
+}
+
+#footer-nav-btn:hover {
+  background: linear-gradient(to top left, black 100%, transparent 0%);
+  color: white;
+  transition: background-color 0.6s ease;
+  border: 2px solid white;
+}
+
+/* #nav-links {
+  list-style: none;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+}
+
+#nav-links li a {
+
+  color: inherit; Inherits the color from the parent element (white in this case)
+  text-decoration: none; Removes the underline
+} */
+
