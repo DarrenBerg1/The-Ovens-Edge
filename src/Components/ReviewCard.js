@@ -17,6 +17,7 @@ export default function reviews() {
       <div className='review-profile'>
       <img src={require('../assets/womenreview.jpg')} alt='women headshot'/>
       <p>"The Oven's Edge staff is very polite <br/>and the food was great!"</p>
+      
       </div>  
     </div>    
       </div>
