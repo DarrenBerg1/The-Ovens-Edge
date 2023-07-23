@@ -367,5 +367,53 @@
 .map-container {
   width: 100%;
   height: 50vh;
-  border-radius: 5%;
+}
+
+#starter-container {
+  
+  height: 550px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+.image-side img{
+  width: 100%;
+  height: 550px;
+}
+
+.text-side {
+  font-family: 'PT Serif', serif;
+}
+
+.text-side h1{
+  margin-top: -100px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.text-side p{
+  font-size: 25px;
+  font-style: italic;
+  opacity: 0.5;
+  line-height: 40px;
+}
+
+
+
+#starter-container button{
+  border-radius: 0%;
+  border: 2px solid black;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  font-family: 'PT Serif', serif;
+  font-size: larger;
+  transition: background-color 0.6s ease;
+}
+
+#starter-container button:hover {
+  background: linear-gradient(to top left, black 100%, transparent 0%);
+  color: white;
+  transition: background-color 0.6s ease;
 }
