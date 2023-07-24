@@ -5,6 +5,10 @@ import ContactPage from './Pages/ContactPage';
 import MainMenuPage from './Pages/MainMenuPage';
 import './App.css';
 import StarterPage from './Pages/StarterPage';
+import MainCoursePage from './Pages/MainCoursePage';
+import DrinksPage from './Pages/DrinksPage';
+import DessertPage from './Pages/DessertPage';
+
 
 function App() {
   return (
@@ -12,7 +16,11 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <StarterPage />
+
+      <DessertPage />
+      {/* <DrinksPage /> */}
+      {/* <MainCoursePage /> */}
+      {/* <StarterPage /> */}
       {/* <MainMenuPage /> */}
       {/* <ContactPage /> */}
       {/* <Homepage /> */}

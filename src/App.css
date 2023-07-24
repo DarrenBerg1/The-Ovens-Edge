@@ -419,26 +419,16 @@
 }
 
 
-/* Starter Menu CSS */
+/* All Menu's CSS */
 
-#starter-container {
+#menupages-container {
   height: 1500px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-top: 70px;
 }
 
-.starter-image{
-  margin-top: -110px;
-  height: 850px;
-  background-image: url('./assets/mainMenuBread.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-}
-
-.starter-header {
+.menupages-header {
   display: grid;
   align-content: center;
   font-family: 'PT Serif', serif;
@@ -450,7 +440,7 @@
   color:white;
 }
 
-.starter-menu {
+.menupages-menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 450px;
@@ -482,4 +472,46 @@
   font-size: 23px;
   font-family: 'PT Serif', serif;
   font-style: italic;
+}
+
+/* images for each menu page */
+
+.starter-image{
+  /* margin-top: -30px; */
+  height: 850px;
+  background-image: url('./assets/mainMenuBread.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+}
+
+.maincourse-image {
+
+height: 850px;
+background-image: url('./assets/mainMenuPizza.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+display: grid;
+align-items: center;
+}
+
+.dessertcourse-image {
+
+height: 850px;
+background-image: url('./assets/mainMenuDessert.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+display: grid;
+align-items: center;
+}
+
+.drinkcourse-image {
+
+height: 850px;
+background-image: url('./assets/mainMenuDrinks.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+display: grid;
+align-items: center;
 }
