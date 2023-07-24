@@ -4,7 +4,7 @@ import FooterCard from './Components/FooterCard';
 import ContactPage from './Pages/ContactPage';
 import MainMenuPage from './Pages/MainMenuPage';
 import './App.css';
-
+import StarterPage from './Pages/StarterPage';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <MainMenuPage />
+      <StarterPage />
+      {/* <MainMenuPage /> */}
       {/* <ContactPage /> */}
       {/* <Homepage /> */}
       <footer>
