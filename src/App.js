@@ -1,4 +1,4 @@
-import Homepage from './Pages/Homepage';
+import Homepage from './Pages/HomePage';
 import Navbar from './Components/Navbar';
 import FooterCard from './Components/FooterCard';
 import ContactPage from './Pages/ContactPage';
@@ -8,6 +8,11 @@ import StarterPage from './Pages/StarterPage';
 import MainCoursePage from './Pages/MainCoursePage';
 import DrinksPage from './Pages/DrinksPage';
 import DessertPage from './Pages/DessertPage';
+import AboutPage from './Pages/AboutPage';
+import router from './Router';
+import { RouterProvider, Outlet } from 'react-router-dom';
+
+
 
 
 function App() {
@@ -16,8 +21,11 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-
-      <DessertPage />
+     
+        <Outlet />
+     
+      {/* <AboutPage /> */}
+      {/* <DessertPage /> */}
       {/* <DrinksPage /> */}
       {/* <MainCoursePage /> */}
       {/* <StarterPage /> */}

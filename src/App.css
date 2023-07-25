@@ -343,7 +343,7 @@
 }
 
 #contact-info {
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: -150px;
   text-align: left;
   
@@ -514,4 +514,46 @@ background-repeat: no-repeat;
 background-size: cover;
 display: grid;
 align-items: center;
+}
+
+/* about page CSS */
+
+#about-container {
+  margin-top: 40px;
+  
+}
+
+#standards-container {
+  display: grid;
+  align-content: center;
+  font-family: 'PT Serif', serif;
+  height: 620px;
+  margin-left: 50px;
+}
+
+#standards-container h1 {
+  font-size: 65px;
+  text-align: left;
+  font-weight: 300;
+  
+}
+
+#standards-container h2 {
+  font-size: 35px;
+  text-align: left;
+  font-weight: lighter;
+  
+}
+
+#standards-container p {
+  font-size: 20px;  
+  text-align: left;
+  font-style: italic;
+  opacity: 0.6;
+  line-height: 30px;
+}
+
+.listOfStandards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

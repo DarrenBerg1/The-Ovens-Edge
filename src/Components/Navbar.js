@@ -10,13 +10,16 @@ export default function Navbar(){
      <div className="navbar">
       <ul id='nav-links'>
         <li>
-        <a href='#'>Home</a>
+        <a href='/'>Home</a>
         </li>
         <li>
-        <a href='#'>Menu</a>
+        <a href='#/about'>About</a>
         </li>
         <li>
-        <a href='#'>Contact</a>
+        <a href='#/menu'>Menu</a>
+        </li>
+        <li>
+        <a href='#/contact'>Contact</a>
         </li>
       </ul>
       <button id='nav-btn'>Reservation</button>

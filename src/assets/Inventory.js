@@ -34,19 +34,19 @@ const productsArray =[
      'image': require('../assets/pizzamenu.jpg'),
      "name": "Pepperoni Pizza", 
      "price": 25.00    
-    },
-    {        
-     "id": 7,
-     'image': require('../assets/pastamenu.jpg'),
-     "name": "Spaghetti Bolognese", 
-     "price": 15.00    
-    },
-    {        
-     "id": 8,
-     'image': require('../assets/calzonemenu.jpg'),
-     "name": "Pepperoni Calzone", 
-     "price": 19.00    
     }
+    // {        
+    //  "id": 7,
+    //  'image': require('../assets/pastamenu.jpg'),
+    //  "name": "Spaghetti Bolognese", 
+    //  "price": 15.00    
+    // },
+    // {        
+    //  "id": 8,
+    //  'image': require('../assets/calzonemenu.jpg'),
+    //  "name": "Pepperoni Calzone", 
+    //  "price": 19.00    
+    // }
   ]
 
   export {productsArray};
