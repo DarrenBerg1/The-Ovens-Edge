@@ -399,8 +399,6 @@
   line-height: 40px;
 }
 
-
-
 #starter-container button{
   border-radius: 0%;
   border: 2px solid black;
@@ -549,11 +547,137 @@ align-items: center;
   font-size: 20px;  
   text-align: left;
   font-style: italic;
-  opacity: 0.6;
+  color: grey;
   line-height: 30px;
 }
 
 .listOfStandards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* about page CSS */
+
+#aboutpage-info{
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  height:450px;
+}
+
+#aboutpage-info img{
+  width: 70%;
+  height: 450px;
+}
+
+#aboutpage-text {
+  margin-left: 80px;
+  text-align: left;
+  align-self: self-start;
+  font-family: 'PT Serif', serif;
+}
+#aboutpage-text h2 {
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+#aboutpage-text h4 {
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#aboutpage-text p {
+  font-size: 18px;
+  line-height: 30px;
+  justify-self: left;
+  color: grey;
+  width: 80%;
+}
+
+#aboutfounded-container {
+  height: 550px;
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+}
+
+#aboutfounded-content {
+  display: grid;
+  align-content: center;
+  font-family: 'PT Serif', serif;
+}
+
+#aboutfounded-content h1{
+  margin-left: -230px;
+  font-size: 60px;
+  font-weight:10;
+
+}
+
+#aboutfounded-content p{
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 50px;
+  color: grey;
+  margin-top: -10px;
+  margin-left: 135px;
+  text-align: left;
+}
+
+.aboutfounded-image img{
+  width: 100%;
+
+}
+
+#aboutContact-container {
+  height: 750px;
+  margin-top: 150px;
+  background-image: url("./assets/aboutpagecontact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-content: center;
+}
+
+#aboutContact-content {
+  display: grid;
+  align-content: center;
+  font-family: 'PT Serif', serif;
+  background-color: black;
+  opacity: 0.8;
+  height: 620px;
+  color:white;
+  justify-content: center;
+}
+
+#aboutContact-content p{
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+#aboutContact-content button{
+  border-radius: 0%;
+  border: 2px solid black;
+  background-color: white;
+  height: 50px;
+  width: 160px;
+  font-family: 'PT Serif', serif;
+  font-size: larger;
+  transition: background-color 0.6s ease;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+#aboutContact-content button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
