@@ -759,7 +759,7 @@ align-items: center;
   
   
   #home-info {
-    height: 50vh;
+    height: 85vh;
     background-image: url("https://img.freepik.com/premium-photo/restaurant_23-2148014999.jpg?size=626&ext=jpg&ga=GA1.2.1890151805.1689798164&semt=ais");
     background-repeat: no-repeat;
     background-size: cover;
@@ -769,43 +769,48 @@ align-items: center;
   }
   
   #home-info h3{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /* margin-bottom: -70px; */
     font-size: 20px;
   }
   #home-info h1 {
-    font-size: 30px;
+    font-size: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
     font-family: 'Kaushan Script', cursive;
     font-weight: lighter;
+    
   }
   
   #home-info p {
-    font-size: 1px;
+    font-size: 1.5vh;
     font-weight: 400;
+    line-height: 1vh;
   }
   
   #about-info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: white;
-    color:black;
-    height: 300px;
+    grid-template-columns: auto;
     align-items: center;
+    height: 110vh;
+    background-color: white;
+    color: black;
   }
   
   #about-text {
-    /* margin-left: 150px; */
+    margin: 0;
     text-align: left;
     align-self: self-start;
     font-family: 'PT Serif', serif;
   }
   #about-text h2 {
-    font-size: 40px;
+    font-size: 5vh;
     font-weight: lighter;
   }
   
   #about-text h4 {
-    font-size: 25px;
+    margin-top: -1vh;
+    font-size: 2vh;
     font-weight: lighter;
     font-style: italic;
   }
@@ -817,18 +822,7 @@ align-items: center;
     color: grey;
     width: 80%;
   }
-  
-  #img-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 70px;
-  }
-  
-  #moscow{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-  }
-  
+   
   #moscow img {
     width: 90%;
     height: 90%;
@@ -842,8 +836,8 @@ align-items: center;
   }
   
   #founded-container {
-    height: 750px;
-    margin-top: 150px;
+    height: 60vh;
+    margin-top: 5vh;
     background-image: url("./assets/wineglass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -857,30 +851,31 @@ align-items: center;
     font-family: 'PT Serif', serif;
     background-color: black;
     opacity: 0.8;
-    height: 620px;
-    color:white;
+    height: 50vh;
+    color: white;
   }
   
   #founded-content h1{
-    font-size: 60px;
-    font-weight:10;
+    font-size: 5vh;
+    font-weight: 100;
   
   }
   
   #founded-content p{
-    font-size: 25px;
+    font-size: 1.8vh;
     font-weight: lighter;
     font-style: italic;
     margin-top: -10px;
+    line-height: 3vh;
   }
   
   #menu-container {
-    height: 1200px;
+    height: 310vh;
     font-family: 'PT Serif', serif;
   }
   
   #menu-container h2 {
-    font-size: 60px;
+    font-size: 5vh;
   }
   
   #menu-container Button {
@@ -903,16 +898,14 @@ align-items: center;
     /* add hover for button */
   
   .products img {
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vh;
   }
   
   .products {
-    margin-left: 25px;
+    margin-left: -.2vh;
     display: grid;
-    align-content: end;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
     
   }
   
@@ -928,7 +921,7 @@ align-items: center;
   }
   
   #review-container {
-    height: 750px;
+    height: 110vh;
     background-image: url("./assets/review.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -942,7 +935,7 @@ align-items: center;
     align-content: center;
     font-family: 'PT Serif', serif;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 620px;
+    height: 100vh;
     color:white;
     width: 100%;
   }
@@ -950,36 +943,35 @@ align-items: center;
   #profile-container {
     display: grid;
     align-content: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
   }
   
   #review-content h1{
-    font-size: 50px;
+    font-size: 5vh;
     font-weight:10;
   }
   
   #review-content p{
-    font-size: 25px;
+    font-size: 1.3em;
     font-weight: lighter;
     font-style: italic;
     margin-top: -10px;
   }
   
   .review-profile img{
-    height: 200px;
-    width: 200px;
+    height: 24vh;
+    width: 24vh;
     border-radius: 80%;
   }
   
   .review-profile p {
     padding-top: 30px;
+    
   }
-  
-  
   
   #footer-container {
     border-top: 1px solid black;
-    height: 100px;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     margin-bottom: -40px;
@@ -1000,25 +992,17 @@ align-items: center;
   }
   
   #footer-logo h1 {
-    width: 180px;
+    width: 35vw;
     font-family: 'Kaushan Script', cursive;
-    font-size: 20px;
+    font-size: 1.3rem;
   }
   
   #footer-details {
-    list-style: none;
-    width: 85%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: 'PT Serif', serif;
-    font-size: 14px;
+    display: none;
+    justify-content: space-between;
   
   }
   
-  #footer-details svg{
-    margin-top: 10px;
-  }
   
   /* CSS For Contacts Page */
   
