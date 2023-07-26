@@ -9,6 +9,8 @@
 
 @media only screen and (max-width: 1920px){
 
+  
+
 #navbar-container {
   height: 100px;
   display: flex;
@@ -687,7 +689,15 @@ align-items: center;
 }
 
 
+/*
 
+
+
+Mobile Screen Styles
+
+
+
+*/
 
 
 
@@ -718,9 +728,9 @@ align-items: center;
   }
   
   #logo h1 {
-    width: 180px;
+    width: 33vw;
     font-family: 'Kaushan Script', cursive;
-    font-size: 20px;
+    font-size: 1.3rem;
   }
   
   #nav-links {
@@ -730,9 +740,18 @@ align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
     font-family: 'PT Serif', serif;
-    font-size: 25px;
+    font-size: 3vh;
   }
-  
+
+  .navbar li:not(:first-child){display: none;}
+  .navbar li.icon {
+    float: right;
+    display: block;
+  }
+  .navbar li:hover {
+    display: flex;
+    flex-direction: column;
+  }
   #nav-links li a {
   
     color: inherit; /* Inherits the color from the parent element (white in this case) */
@@ -755,6 +774,7 @@ align-items: center;
     color: white;
     transition: background-color 0.6s ease;
     border: 2px solid white;
+    
   }
   
   
@@ -1203,120 +1223,128 @@ align-items: center;
     display: grid;
     align-content: center;
     font-family: 'PT Serif', serif;
-    height: 620px;
-    margin-left: 50px;
+    height: 80vh;
+    margin-left: 1vw;
+    margin-top: 10vh;
   }
   
   #standards-container h1 {
-    font-size: 65px;
+    font-size: 4.5rem;
     text-align: left;
     font-weight: 300;
     
   }
   
   #standards-container h2 {
-    font-size: 35px;
+    font-size: 2.3rem;
     text-align: left;
     font-weight: lighter;
     
   }
   
   #standards-container p {
-    font-size: 20px;  
+    font-size: 1.1rem;
     text-align: left;
     font-style: italic;
     color: grey;
-    line-height: 30px;
+    line-height: 3vh;
   }
   
   .listOfStandards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto;
   }
   
   
   /* about page CSS */
   
   #aboutpage-info{
-    margin-top: 150px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: auto;
     justify-content: center;
     align-items: center;
-    height:450px;
+    height: 140vh;
+    margin-top: 0;
   }
   
   #aboutpage-info img{
-    width: 70%;
-    height: 450px;
+    width: 90%;
+    height: 50vh;
   }
   
   #aboutpage-text {
-    margin-left: 80px;
+    margin-left: 2vw;
     text-align: left;
     align-self: self-start;
     font-family: 'PT Serif', serif;
   }
   #aboutpage-text h2 {
-    font-size: 60px;
+    font-size: 3.5rem;
+    margin-top: -5vh;
     font-weight: lighter;
   }
   
   #aboutpage-text h4 {
-    font-size: 25px;
+    font-size: 1.5rem;
+    margin-top: -2vh;
     font-weight: lighter;
     font-style: italic;
   }
   
   #aboutpage-text p {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.1rem;
+    line-height: 3.5vh;
     justify-self: left;
     color: grey;
-    width: 80%;
+    width: 92%;
   }
   
   #aboutfounded-container {
-    height: 550px;
-    margin-top: 150px;
+    height: 80vh;
+    margin-top: -20vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
+    grid-template-columns: inherit;
+    /* align-content: center; */
   }
   
   #aboutfounded-content {
     display: grid;
     align-content: center;
     font-family: 'PT Serif', serif;
+    margin: auto;
   }
   
   #aboutfounded-content h1{
-    margin-left: -230px;
-    font-size: 60px;
-    font-weight:10;
+    display: grid;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 10;
+    margin: 0;
   
   }
   
   #aboutfounded-content p{
-    font-size: 30px;
+    font-size: 1.2rem;
     font-weight: lighter;
     font-style: italic;
-    line-height: 50px;
+    line-height: 4vh;
     color: grey;
-    margin-top: -10px;
-    margin-left: 135px;
-    text-align: left;
+    margin: 0px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+   
   }
   
   .aboutfounded-image img{
+    margin-top: 5vh;
     width: 100%;
   
   }
   
   #aboutContact-container {
-    height: 750px;
-    margin-top: 150px;
-    background-image: url("./assets/aboutpagecontact.jpg");
+    height: 53vh;
+    margin-top: 24vh;
+    background-image: url(http://localhost:3000/static/media/aboutpagecontact.9344f5d….jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -1328,30 +1356,32 @@ align-items: center;
     align-content: center;
     font-family: 'PT Serif', serif;
     background-color: black;
-    opacity: 0.8;
-    height: 620px;
-    color:white;
+    opacity: 0.7;
+    height: 45vh;
+    color: white;
     justify-content: center;
   }
   
   #aboutContact-content p{
-    font-size: 25px;
+    font-size: 1.1rem;
     font-weight: lighter;
     font-style: italic;
-    margin-top: -10px;
+    margin-top: -5vh;
+    width: 77%;
+    margin-left: 12vw;
   }
   
   #aboutContact-content button{
     border-radius: 0%;
     border: 2px solid black;
     background-color: white;
-    height: 50px;
-    width: 160px;
+    height: 6vh;
+    width: 37vw;
     font-family: 'PT Serif', serif;
     font-size: larger;
     transition: background-color 0.6s ease;
-    margin-top: 50px;
-    margin-left: 350px;
+    margin-top: 6vh;
+    margin-left: 31vw;
   }
   
   #aboutContact-content button:hover {
