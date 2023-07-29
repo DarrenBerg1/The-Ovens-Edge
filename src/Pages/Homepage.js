@@ -4,8 +4,13 @@ import AboutCard from '../Components/AboutCard';
 import FoundedCard from '../Components/FoundedCard';
 import ReviewCard from '../Components/ReviewCard';
 import {Button} from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 export default function Homepage() {
+
+const navigate = useNavigate();
+
+
   return (
     <>
     <div>
@@ -29,7 +34,7 @@ export default function Homepage() {
       <section id="menu-container">
           <h2>Menu</h2>  
           <ProductCard />
-          <Button >SEE MENU</Button>
+          <Button onClick={() => navigate('/menu')}>SEE MENU</Button>
       </section>
 
       <section>

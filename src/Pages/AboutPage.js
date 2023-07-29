@@ -1,6 +1,9 @@
-
+import { useNavigate } from 'react-router-dom';
 
 export default function AboutPage(){
+
+const navigate = useNavigate();
+
   return(
     <>
       <div id="aboutpage-container">
@@ -53,7 +56,7 @@ export default function AboutPage(){
     
         <div id="aboutContact-content">
           <p>"We're hiring new culinary talents all the time! If you want to become a part <br/> of our culinary family and you have at least 6 months of prior experience <br/>of working at a restaurant, then contact us today!"</p>
-          <button>Contact</button>
+          <button onClick={() => navigate('/contact')}>Contact</button>
         </div>
       </div>
         </div>
