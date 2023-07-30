@@ -1121,10 +1121,10 @@ Mobile Screen Styles
   /* All Menu's CSS */
   
   #menupages-container {
-    height: 1500px;
+    height: 185vh;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 70px;
+    margin-top: 12vh;
   }
   
   .menupages-header {
@@ -1132,21 +1132,21 @@ Mobile Screen Styles
     align-content: center;
     font-family: 'PT Serif', serif;
     background-color: black;
-    font-size: 70px;
+    font-size: 4rem;
     font-weight: 500;
     opacity: 0.8;
-    height: 720px;
-    color:white;
+    height: 65vh;
+    color: white;
   }
   
   .menupages-menu {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 450px;
+    grid-template-columns: auto;
+    height: 60vh;
   
   }
   
-  .menu-left{
+  /* .menu-left{
     display: grid;
     justify-content: space-around;
     text-align: left;
@@ -1160,15 +1160,15 @@ Mobile Screen Styles
     justify-content: space-around;
     text-align: left;
     align-items: center;
-  }
+  } */
   
   .items {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    width: 99vw;
     border-bottom: 1px solid black;
-    font-size: 23px;
+    font-size: 1.1rem;
     font-family: 'PT Serif', serif;
     font-style: italic;
   }
@@ -1176,8 +1176,8 @@ Mobile Screen Styles
   /* images for each menu page */
   
   .starter-image{
-    /* margin-top: -30px; */
-    height: 850px;
+    height: 80vh;
+    width: 100vw;
     background-image: url('./assets/mainMenuBread.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -1187,7 +1187,8 @@ Mobile Screen Styles
   
   .maincourse-image {
   
-  height: 850px;
+  height: 80vh;
+  width: 100vw;
   background-image: url('./assets/mainMenuPizza.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1197,7 +1198,8 @@ Mobile Screen Styles
   
   .dessertcourse-image {
   
-  height: 850px;
+  height: 80vh;
+  width: 100vw;
   background-image: url('./assets/mainMenuDessert.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1206,8 +1208,8 @@ Mobile Screen Styles
   }
   
   .drinkcourse-image {
-  
-  height: 850px;
+  height: 80vh;
+  width: 100vw;
   background-image: url('./assets/mainMenuDrinks.jpg');
   background-repeat: no-repeat;
   background-size: cover;
