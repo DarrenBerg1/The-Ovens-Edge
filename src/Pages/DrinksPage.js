@@ -40,7 +40,7 @@ export default function DrinksPage(){
 
         </div>
       </div>
-
+      <button>Back</button>
     </div>
     </>
   );

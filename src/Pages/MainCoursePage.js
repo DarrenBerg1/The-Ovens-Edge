@@ -38,7 +38,7 @@ export default function MainCoursePage(){
 
         </div>
       </div>
-
+      <button>Back</button>
     </div>
     </>
   );
