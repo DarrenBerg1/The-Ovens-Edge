@@ -1,12 +1,11 @@
 import MapCard from './MapCard';
 
 
-export default function() {
+export default function Contact() {
   return(
     <>
     <div id='contact-container'>
     <div id='contact-data-container'>
-       
     <div id='contact-info'>
 
       <h1>Contact Details</h1>

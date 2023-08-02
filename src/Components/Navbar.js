@@ -1,6 +1,10 @@
-
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbar(){
+
+const navigate = useNavigate();
+
+
   return (
     <>
     <div id='navbar-container'>
@@ -22,7 +26,7 @@ export default function Navbar(){
         <a href='#/contact'>Contact</a>
         </li>
       </ul>
-      <button id='nav-btn'>Reservation</button>
+      <button id='nav-btn' onClick={() => navigate('/reservation')}>Reservation</button>
       </div>
     </div>
     

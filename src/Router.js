@@ -8,7 +8,7 @@ import MainCoursePage from './Pages/MainCoursePage';
 import StarterPage from './Pages/StarterPage';
 import DessertPage from './Pages/DessertPage';
 import DrinksPage from './Pages/DrinksPage';
-
+import ReservationForm from './Components/ReservationForm';
 
 
 
@@ -49,6 +49,10 @@ const router =  createHashRouter([
       {
         path: '/drinkmenu',
         element: <DrinksPage />
+      },
+      {
+        path: '/reservation',
+        element: <ReservationForm />
       }
     ]
   }

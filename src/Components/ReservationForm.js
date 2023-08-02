@@ -54,7 +54,7 @@
 
 import { useForm } from "react-hook-form";
 
-export default function App() {
+export default function Reservation() {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
 
