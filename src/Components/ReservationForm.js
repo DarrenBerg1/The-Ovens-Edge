@@ -73,7 +73,7 @@ export default function Reservation() {
       {/* errors will return when field validation fails  */}
       {errors.exampleRequired && <span>This field is required</span>}
       
-      <button onClick={alert('submitted')}>Submit</button>
+      <button >Submit</button>
     </form>
     
     </div>
