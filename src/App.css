@@ -747,7 +747,7 @@ Mobile Screen Styles
 
 
 /* mobile device */
-@media all and (max-width: 415px) {
+@media all and (max-width: 600px) {
 
   #navbar-container {
     height: 100px;
@@ -853,7 +853,7 @@ Mobile Screen Styles
     display: grid;
     grid-template-columns: auto;
     align-items: center;
-    height: 210vh;
+    height: 285vh;
     background-color: white;
     color: black;
   }
@@ -883,21 +883,28 @@ Mobile Screen Styles
     color: grey;
     width: 80%;
   }
+
+  #img-container {
+    display: grid;
+    grid-template-columns: auto;
+    
+  }
+
    
   #moscow img {
-    width: 90%;
-    height: 90%;
+    width: 94%;
+    height: 49%;
     object-fit: cover;
   }
   
   #hawaiian-pizza img {
-    width: 100%;
-    height: 95%;
+    width: 94%;
+    height: 90%;
     object-fit: cover;
   }
   
   #founded-container {
-    height: 60vh;
+    height: 70vh;
     margin-top: 5vh;
     background-image: url("./assets/wineglass.jpg");
     background-repeat: no-repeat;
@@ -912,7 +919,7 @@ Mobile Screen Styles
     font-family: 'PT Serif', serif;
     background-color: black;
     opacity: 0.8;
-    height: 50vh;
+    height: 60vh;
     color: white;
   }
   
@@ -959,8 +966,8 @@ Mobile Screen Styles
     /* add hover for button */
   
   .products img {
-    height: 40vh;
-    width: 40vh;
+    height: 60vh;
+    width: 60vh;
   }
   
   .products {
@@ -975,13 +982,14 @@ Mobile Screen Styles
   .products .product-info {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    font-weight: 500;
+    justify-content: space-around;
+    font-weight: 600;
     font-style: italic;
-    
+    font-size: 1.2rem;
   }
   
   #review-container {
+    margin-top: 75vh;
     height: 110vh;
     background-image: url("./assets/review.jpg");
     background-repeat: no-repeat;
