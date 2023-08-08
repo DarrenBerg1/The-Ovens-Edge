@@ -5,9 +5,9 @@
 }
 
 
-/* For Regular Desktop sizes */
+/* For Regular Desktop sizes  change size to be 1024 and higher.... no max?*/
 
-@media only screen and (min-width: 1200px) and ( max-width: 1920px){
+@media only screen and (min-width: 1025px){
 
   
 
@@ -741,13 +741,13 @@ TABLET SCREEN STYLES
 
 
 
-
+change sizing for tablet to be 601 - 1024
 */
 
 
 /* For tablet sizes */
 
-@media only screen and (min-width: 835px) and ( max-width: 1244px){
+@media only screen and (min-width: 601px) and ( max-width: 1024px){
 
   
 
@@ -1482,7 +1482,7 @@ TABLET SCREEN STYLES
 Mobile Screen Styles
 
 
-
+change size back to 600
 */
 
 
@@ -1492,7 +1492,7 @@ Mobile Screen Styles
 
 
 /* mobile device */
-@media all and (max-width: 834px) {
+@media all and (max-width: 600px) {
 
   #navbar-container {
     height: 100px;
