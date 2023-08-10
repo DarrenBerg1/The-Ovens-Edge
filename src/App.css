@@ -72,7 +72,7 @@
 
 #form-container {
   height: 1300px;
-  margin-left: 26%;
+  margin-left: 28%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
